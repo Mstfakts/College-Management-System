@@ -1,0 +1,121 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  background: #ededed;
+}
+
+input, button {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+.tip {
+  font-size: 20px;
+  margin: 80px auto 50px;
+  text-align: center;
+}
+
+
+.cont {
+  overflow: hidden;
+  position: relative;
+  width: 900px;
+  height: 550px;
+  margin: 0 auto 100px;
+  background: #fff;
+}
+.container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  width: 260px;
+  height: 36px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+h2 {
+  width: 100%;
+  font-size: 26px;
+  text-align: center;
+}
+p{
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  width: 260px;
+  margin: 25px auto 0;
+  text-align: center;
+  border-bottom: 1px solid blue
+}
+
+input[type = email] :focus, input[type = password] :focus {
+  background-color: rgb(34, 34, 185);
+}
+label span {
+  font-size: 12px;
+  color: #cfcfcf;
+  text-transform: uppercase;
+}
+
+input {
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+.submit {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background: #3c18a0;
+  text-transform: uppercase;
+}
+
+.fb-btn {
+  border: 2px solid #d3dae9;
+  color: #1b49ad;
+}
+.fb-btn span {
+  font-weight: bold;
+  color: #2859b6;
+}
+
+.icon-link {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  width: 50px;
+}
+.icon-link img {
+  width: 100%;
+  vertical-align: top;
+}
+.icon-link--twitter {
+  left: auto;
+  right: 5px;
+}
