@@ -113,8 +113,8 @@
 
                   if(isset($_POST['search_book']))
                   {
-                    $name=$_POST['book_name'];
-                    $author=$_POST['book_author'];
+                    $name = mysqli_real_escape_string($db, $_POST['book_name']);
+                    $author = mysqli_real_escape_string($db, $_POST['book_author']);
 
                     $query = "SELECT * FROM book WHERE book_name = '$name' AND author = '$author'";
                     $results = mysqli_query($db, $query);
